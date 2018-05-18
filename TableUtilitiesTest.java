@@ -7,6 +7,25 @@ import org.junit.Test;
  * Created by leon on 1/31/18.
  */
 public class TableUtilitiesTest {
+   
+    @Test
+    public void testGetMulplicationTable_forOne(){
+        String expected = "  1 |\n";
+
+        String actual = TableUtilities.getMultiplicationTable(1);
+        Assert.assertEquals(expected, actual);
+    }
+    
+        @Test
+    public void testGetMulplicationTable_forTwo(){
+        String expected = "  1 |  2 |\n" +
+                          "  2 |  4 |\n";
+
+        String actual = TableUtilities.getMultiplicationTable(2);
+        Assert.assertEquals(expected, actual);
+    }
+    
+    
     @Test
     public void testGetLargeMultiplicationTable() {
         String expected =

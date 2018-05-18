@@ -2,6 +2,20 @@
 
 
 public class NumberUtilities {
+    
+    public static String getRange(int start) {
+        return null;
+    }
+    
+    public static String getRange(int start, int stop) {
+        return null;
+    }
+
+
+    public static String getRange(int start, int stop, int step) {
+        return null;
+    }
+    
     public static String getEvenNumbers(int start, int stop) {
         return null;
     }
@@ -12,25 +26,7 @@ public class NumberUtilities {
     }
 
 
-    public static String getSquareNumbers(int start, int stop, int step) {
-        return null;
-    }
-
-    public static String getRange(int start) {
-        return null;
-    }
-
-    public static String getRange(int start, int stop) {
-        return null;
-    }
-
-
-    public static String getRange(int start, int stop, int step) {
-        return null;
-    }
-
-
-    public static String getExponentiations(int start, int stop, int step, int exponent) {
+    public static String getExponentiations(int start, int stop, int exponent) {
         return null;
     }
 }
